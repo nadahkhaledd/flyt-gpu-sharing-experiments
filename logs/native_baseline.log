@@ -1,0 +1,18 @@
+GPU: NVIDIA L40S, SMs: 142
+Matrix size: 2048x2048, Iterations: 10
+Verification passed (C[0,0] = 509.290955)
+Iteration 1: 0.0031 sec (5598.01 GFLOPS)
+Iteration 2: 0.0031 sec (5610.65 GFLOPS)
+Iteration 3: 0.0031 sec (5616.34 GFLOPS)
+Iteration 4: 0.0031 sec (5615.90 GFLOPS)
+Iteration 5: 0.0031 sec (5616.34 GFLOPS)
+Iteration 6: 0.0031 sec (5615.90 GFLOPS)
+Iteration 7: 0.0031 sec (5619.84 GFLOPS)
+Iteration 8: 0.0031 sec (5619.84 GFLOPS)
+Iteration 9: 0.0031 sec (5618.09 GFLOPS)
+Iteration 10: 0.0031 sec (5618.09 GFLOPS)
+
+=== SUMMARY ===
+Avg time: 0.0031 sec
+Avg GFLOPS: 5614.89
+Total time: 0.0306 sec

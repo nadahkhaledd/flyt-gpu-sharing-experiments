@@ -1,0 +1,9 @@
+configuration,sm_count,sm_percent,avg_gflops,verification,notes
+native_baseline,142,100,5626,passed,no Flyt virtualization
+flyt_full_gpu,142,100,4968,passed,11 percent overhead from TCP RPC
+flyt_50_50_job1,71,50,2659,passed,concurrent with job2
+flyt_50_50_job2,71,50,2656,passed,concurrent with job1
+flyt_50_50_combined,142,100,5315,passed,combined throughput exceeds single full-GPU job
+flyt_30_70_job1_30pct,43,30,1696,passed,smaller share of split
+flyt_30_70_job2_70pct,99,70,3580,passed,larger share of split
+flyt_30_70_combined,142,100,5276,passed,combined throughput proportional to allocation

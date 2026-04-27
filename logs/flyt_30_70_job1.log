@@ -1,0 +1,102 @@
+/home/khab/flyt-experiments/matmul/bin/matmul_bench: /home/khab/flyt/bin-server/cricket-client.so: no version information available (required by /home/khab/flyt-experiments/matmul/bin/matmul_bench)
+[cricket-client] Using CRICKET_SERVER=localhost,1
++00:00:00.000115 [34mINFO[0m:	connection to host "localhost"
++00:00:00.000256 [32mDEBUG[0m:	the command is "matmul_bench"
++00:00:00.000268 [32mDEBUG[0m: using prog=99, vers=1	in [4mcpu-client.c:97[0m
++00:00:00.000276 [34mINFO[0m:	connecting via TCP...
++00:00:00.002006 [32mDEBUG[0m: __cudaRegisterFatBinary(fatCubin=0x6174810df028)	in [4mcpu-client.c:435[0m
++00:00:00.002281 [32mDEBUG[0m: found new kernel: _Z6matmulPfS_S_i (symbol table id: 0x4)	in [4mcpu-elf2.c:975[0m
++00:00:00.002296 [32mDEBUG[0m: cbank_param_size: 0x1c	in [4mcpu-elf2.c:724[0m
++00:00:00.002854 [32mDEBUG[0m:	fatbin loaded to 0x6174b1083f00
++00:00:00.002861 [32mDEBUG[0m: __cudaRegisterFunction(fatCubinHandle=0x6174b1083f00, hostFun=0x6174810dade5, devFunc=_Z6matmulPfS_S_i, deviceName=_Z6matmulPfS_S_i, thread_limit=-1, tid=[(nil)], bid=[(nil)], bDim=[(nil)], gDim=[(nil)], wSize=(nil))
+	in [4mcpu-client.c:397[0m
++00:00:00.002869 [32mDEBUG[0m: request to register known function: "_Z6matmulPfS_S_i"	in [4mcpu-client.c:409[0m
++00:00:00.003103 [32mDEBUG[0m:	__cudaRegisterFatBinaryEnd call
++00:00:00.003512 [32mDEBUG[0m:	__cudaRegisterFatBinaryEnd finished
+GPU: NVIDIA L40S, SMs: 142
+Matrix size: 2048x2048, Iterations: 10
++00:00:00.233635 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.233747 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.233751 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.233756 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.233760 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.233766 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Verification passed (C[0,0] = 509.290955)
++00:00:00.264069 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.264100 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.264105 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.264109 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.264112 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.264117 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 1: 0.0101 sec (1705.06 GFLOPS)
++00:00:00.274152 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.274177 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.274180 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.274184 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.274187 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.274191 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 2: 0.0100 sec (1710.44 GFLOPS)
++00:00:00.284204 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.284227 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.284231 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.284235 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.284238 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.284242 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 3: 0.0100 sec (1711.46 GFLOPS)
++00:00:00.294250 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.294272 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.294276 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.294280 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.294283 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.294286 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 4: 0.0100 sec (1716.76 GFLOPS)
++00:00:00.304263 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.304284 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.304286 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.304288 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.304290 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.304322 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 5: 0.0101 sec (1701.68 GFLOPS)
++00:00:00.314365 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.314385 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.314388 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.314390 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.314392 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.314395 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 6: 0.0101 sec (1693.44 GFLOPS)
++00:00:00.324524 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.324596 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.324603 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.324609 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.324615 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.324623 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 7: 0.0102 sec (1684.14 GFLOPS)
++00:00:00.334738 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.334777 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.334783 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.334790 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.334796 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.334803 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 8: 0.0102 sec (1678.37 GFLOPS)
++00:00:00.344987 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.345026 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.345033 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.345039 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.345045 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.345052 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 9: 0.0102 sec (1680.02 GFLOPS)
++00:00:00.355226 [32mDEBUG[0m:	__cudaPushCallConfiguration call
++00:00:00.355265 [32mDEBUG[0m:	__cudaPushCallConfiguration finished
++00:00:00.355272 [32mDEBUG[0m:	__cudaPopCallConfiguration call
++00:00:00.355278 [32mDEBUG[0m:	__cudaPopCallConfiguration finished
++00:00:00.355284 [32mDEBUG[0m: cudaLaunchKernel(0x6174810dade5)	in [4mcpu-client-runtime.c:1065[0m
++00:00:00.355291 [32mDEBUG[0m:	calling kernel "_Z6matmulPfS_S_i" (param_size: 28, param_num: 4)
+Iteration 10: 0.0102 sec (1679.35 GFLOPS)
+
+=== SUMMARY ===
+Avg time: 0.0101 sec
+Avg GFLOPS: 1695.96
+Total time: 0.1013 sec
++00:00:00.372129 [32mDEBUG[0m: __cudaUnregisterFatBinary(fatCubinHandle=0x6174b1083f00)	in [4mcpu-client.c:473[0m
++00:00:00.372463 [34mINFO[0m:	api-call-cnt: 32
++00:00:00.372469 [34mINFO[0m:	memcpy-cnt: 50331648
