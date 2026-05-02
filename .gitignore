@@ -1,4 +1,7 @@
 bin/
+docker/libs/
+docker/matmul_bench
+docker/cricket-client.so
 *.o
 *.so
 __pycache__/

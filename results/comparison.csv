@@ -7,3 +7,8 @@ flyt_50_50_combined,142,100,5315,passed,combined throughput exceeds single full-
 flyt_30_70_job1_30pct,43,30,1696,passed,smaller share of split
 flyt_30_70_job2_70pct,99,70,3580,passed,larger share of split
 flyt_30_70_combined,142,100,5276,passed,combined throughput proportional to allocation
+docker_flyt_full_gpu,71,50,2801,passed,containerized - server had 71 SMs not 142 - needs rerun
+docker_flyt_50_50_job1,71,50,1271,passed,containerized concurrent - high variance due to system load
+docker_flyt_50_50_job2,71,50,1274,passed,containerized concurrent - high variance due to system load
+docker_flyt_30_70_job1_30pct,43,30,955,passed,containerized 30pct - high variance due to system load
+docker_flyt_30_70_job2_70pct,99,70,1571,passed,containerized 70pct - high variance due to system load
