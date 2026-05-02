@@ -1,14 +1,14 @@
-configuration,sm_count,sm_percent,avg_gflops,verification,notes
-native_baseline,142,100,5626,passed,no Flyt virtualization
-flyt_full_gpu,142,100,4968,passed,11 percent overhead from TCP RPC
-flyt_50_50_job1,71,50,2659,passed,concurrent with job2
-flyt_50_50_job2,71,50,2656,passed,concurrent with job1
-flyt_50_50_combined,142,100,5315,passed,combined throughput exceeds single full-GPU job
-flyt_30_70_job1_30pct,43,30,1696,passed,smaller share of split
-flyt_30_70_job2_70pct,99,70,3580,passed,larger share of split
-flyt_30_70_combined,142,100,5276,passed,combined throughput proportional to allocation
-docker_flyt_full_gpu,71,50,2801,passed,containerized - server had 71 SMs not 142 - needs rerun
-docker_flyt_50_50_job1,71,50,1271,passed,containerized concurrent - high variance due to system load
-docker_flyt_50_50_job2,71,50,1274,passed,containerized concurrent - high variance due to system load
-docker_flyt_30_70_job1_30pct,43,30,955,passed,containerized 30pct - high variance due to system load
-docker_flyt_30_70_job2_70pct,99,70,1571,passed,containerized 70pct - high variance due to system load
+configuration,sm_count,sm_percent,avg_gflops,verification,system_load,notes
+native_baseline,142,100,5626,passed,idle,no Flyt virtualization
+flyt_full_gpu,142,100,4968,passed,idle,11 percent overhead from TCP RPC
+flyt_50_50_job1,71,50,2659,passed,idle,concurrent with job2
+flyt_50_50_job2,71,50,2656,passed,idle,concurrent with job1
+flyt_50_50_combined,142,100,5315,passed,idle,combined throughput exceeds single full-GPU job
+flyt_30_70_job1_30pct,43,30,1696,passed,idle,smaller share of split
+flyt_30_70_job2_70pct,99,70,3580,passed,idle,larger share of split
+flyt_30_70_combined,142,100,5276,passed,idle,combined throughput proportional to allocation
+docker_flyt_full_gpu,142,100,2731,passed,high,containerized full GPU - degraded by system load
+docker_flyt_50_50_job1,71,50,1271,passed,high,containerized concurrent - degraded by system load
+docker_flyt_50_50_job2,71,50,1274,passed,high,containerized concurrent - degraded by system load
+docker_flyt_30_70_job1_30pct,43,30,955,passed,high,containerized 30pct - degraded by system load
+docker_flyt_30_70_job2_70pct,99,70,1571,passed,high,containerized 70pct - degraded by system load
