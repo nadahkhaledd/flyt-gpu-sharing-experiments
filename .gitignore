@@ -1,7 +1,9 @@
-bin/
-docker/libs/
-docker/matmul_bench
-docker/cricket-client.so
+matmul/bin/
+matmul/docker/libs/
+matmul/docker/matmul_bench
+matmul/docker/cricket-client.so
 *.o
 *.so
 __pycache__/
+*.pyc
+inference/logs/*.log
