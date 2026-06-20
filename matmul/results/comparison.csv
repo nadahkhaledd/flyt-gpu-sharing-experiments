@@ -12,3 +12,6 @@ docker_flyt_50_50_job1,71,50,1271,passed,high,containerized concurrent - degrade
 docker_flyt_50_50_job2,71,50,1274,passed,high,containerized concurrent - degraded by system load
 docker_flyt_30_70_job1_30pct,43,30,955,passed,high,containerized 30pct - degraded by system load
 docker_flyt_30_70_job2_70pct,99,70,1571,passed,high,containerized 70pct - degraded by system load
+native,142,5624.10,509.290955,idle,2026-06-20,clean rerun on idle GPU 2048x2048 10iter
+flyt_host_full,142,4968.00,509.290955,idle,2026-05-03,from original May measurement
+flyt_container_full,142,4977.59,509.290955,idle,2026-06-20,clean rerun on idle GPU; same setup as host

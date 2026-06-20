@@ -1,0 +1,2 @@
+/app/matmul_bench: /app/cricket-client.so: no version information available (required by /app/matmul_bench)
+[cricket-client] Using CRICKET_SERVER=localhost,1
