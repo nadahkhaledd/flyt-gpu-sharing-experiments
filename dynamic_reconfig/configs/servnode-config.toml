@@ -1,0 +1,9 @@
+[resource-manager]
+address = "127.0.0.1"
+port = 12401
+
+[virt-server]
+program-path = "/home/khab/flyt/bin-server/cricket-rpc-server"
+
+[ipc]
+mqueue-path = "/home/khab/flyt-servernode-queue"

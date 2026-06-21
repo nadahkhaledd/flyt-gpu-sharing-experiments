@@ -1,0 +1,12 @@
+[2026-06-21T17:16:19Z INFO  flyt_cluster_manager::servernode_handler] Server node handler started on port: 12401
+[2026-06-21T17:16:19Z INFO  flyt_cluster_manager::frontend_handler] Frontend handler listening on /tmp/flyt-frontend-socket
+[2026-06-21T17:16:21Z INFO  flyt_cluster_manager::servernode_handler] Server node connected: 127.0.0.1
+[2026-06-21T17:16:21Z INFO  flyt_cluster_manager::servernode_handler] Getting GPU details for servernode: 127.0.0.1
+[2026-06-21T17:16:21Z INFO  flyt_cluster_manager::servernode_handler] Server node gpus updated: 127.0.0.1
+[2026-06-21T17:17:34Z INFO  flyt_cluster_manager::frontend_handler] Received change resource request
+[2026-06-21T17:17:34Z INFO  flyt_cluster_manager::frontend_handler] Changing resource for VM: 127.0.0.1, new resource: 71 for Both
+[2026-06-21T17:17:34Z ERROR flyt_cluster_manager::frontend_handler] Client VM 127.0.0.1 not found
+[2026-06-21T17:26:56Z INFO  flyt_cluster_manager::servernode_handler] Server node connected: 127.0.0.1
+[2026-06-21T17:26:56Z INFO  flyt_cluster_manager::servernode_handler] Server node already exists: 127.0.0.1
+[2026-06-21T17:26:56Z INFO  flyt_cluster_manager::servernode_handler] Getting GPU details for servernode: 127.0.0.1
+[2026-06-21T17:26:56Z INFO  flyt_cluster_manager::servernode_handler] Server node gpus updated: 127.0.0.1

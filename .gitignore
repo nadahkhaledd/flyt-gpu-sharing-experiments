@@ -7,3 +7,6 @@ matmul/docker/cricket-client.so
 __pycache__/
 *.pyc
 inference/logs/*.log
+
+# Avoid committing giant debug logs
+dynamic_reconfig/logs/*_run2.log
